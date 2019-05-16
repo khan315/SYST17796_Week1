@@ -12,9 +12,24 @@ package studentdemoweek1;
  */
 public class Student 
 {
+
+    /**
+     * @return the isFullTime
+     */
+    public boolean isIsFullTime() {
+        return isFullTime;
+    }
+
+    /**
+     * @param isFullTime the isFullTime to set
+     */
+    public void setIsFullTime(boolean isFullTime) {
+        this.isFullTime = isFullTime;
+    }
     private String name;
     private String studentID;
     private String program;
+    private boolean isFullTime = true;
     
     public Student()
     {
