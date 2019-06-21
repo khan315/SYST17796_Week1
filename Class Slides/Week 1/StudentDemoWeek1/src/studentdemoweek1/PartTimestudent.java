@@ -6,8 +6,7 @@
 package studentdemoweek1;
 
 /**
- *
- * @author mueedkhan
+
  */
 public class PartTimestudent extends Student {
     
